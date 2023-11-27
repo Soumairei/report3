@@ -29,6 +29,9 @@ public class LivingThing {
     public void setDead(boolean _dead) {
         this.dead = _dead;
     }
+    public int getAttack(){
+        return this.attack;
+    }
     
        
     public void attack(LivingThing opponent){
@@ -50,4 +53,5 @@ public class LivingThing {
 
     
     }
+    
 }
